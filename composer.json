@@ -1,0 +1,22 @@
+{
+	"name": "tomaskarlik/dateinput",
+	"type": "library",
+	"description": "Date input for Nette forms",
+	"keywords": ["date", "input", "forms", "nette"],
+	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+	"authors": [
+		{ "name": "Tomáš Karlík", "homepage": "http://tomaskarlik.cz" }
+	],
+	"require": {
+		"php": "^7.1",
+		"nette/di": "^2.4",
+		"nette/forms": "^2.4",
+		"nette/php-generator": "^2.4",
+		"nette/utils": "^2.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"TomasKarlik\\DateInput\\": "src"
+		}
+	}
+}
